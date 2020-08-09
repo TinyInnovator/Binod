@@ -7,6 +7,11 @@ import pygame
 from gtts import gTTS
 
 sp = Dispatch('SAPI.SpVoice')
+# create a file binod.txt
+f = open('binod.txt', 'w')
+# write Binod in it
+f.write('Binod')
+f.close()
 # open file binod.txt
 f = open('binod.txt')
 # initialize pygame speaker
